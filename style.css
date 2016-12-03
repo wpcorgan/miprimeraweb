@@ -1,679 +1,352 @@
-/* Template by freewebsitetemplates.com */
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
-	background: #fff url(images/background.gif) repeat-x center 187px;
-	color: #585858;
-	font-family: Arial;
-	font-size: 14px;
-	margin: 0;
-	min-width: 960px;
+	background: #F6F6F6 url(images/img01.jpg) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #6B6B6B;
 }
 
-a {
-	outline: none;
+form {
 }
 
-img {
-	border: none;
+input, textarea {
+	padding: 2px 5px;
+	border: 1px solid #EBEBEB;
+	font: bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6B6B6B;
 }
 
-#header div#section:after,
-#header ul:after,
-#content div:after,
-#content div ul.services:after,
-#footer div:after,
-#footer div div.section ul:after {
-	clear: both;
-	content: " ";
-	display: block;
-	font-size: 0;
-	height: 0;
-	visibility: hidden;
-}
-
-#page {
-	background: url(images/background.jpg) no-repeat center 180px;
-	width: 100%;
-}
-
-#header {
-	background: url(images/bg-header.gif) repeat-x;
-	height: auto;
-	overflow: hidden;
-	position: relative;
-}
-
-#header div#section {
-	height: 145px;
-	margin: 0 auto;
-	width: 960px;
-}
-
-#header div#section div {
-	float: left;
-    margin-top: 48px;
-}
-
-#header div#section div a {
-	display: block;
-}
-
-#header div#section span {
-	color: #ACBCC9;
-    float: right;
-    margin: 0;
-    padding-right: 20px;
-    padding-top: 45px;
-    text-align: right;
-    width: 178px;
-}
-
-#header ul {
-	list-style: none;
-	margin: 2px auto 0;
-    padding: 0;
-	width: 935px;
-}
-
-#header ul li {
-	float: left;
-    padding-right: 5px;
-}
-
-#header ul li a {
-	color: #28475C;
-    display: block;
-	font-size: 14px;
-    height: 43px;
-    line-height: 37px;
-    padding: 0 23px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 1px 1px 0 #94C81D;
-    text-transform: capitalize;
-}
-
-#header ul li.current, #header ul li:hover {
-	height: 43px;
-}	
-
-#header ul li.current a {
-	background: url(images/bg-menu.gif) repeat-x;
-	color: #2a495e;
-	font-weight: bold;
-	text-shadow: 1px 1px 0 #a8d32c;
-}
-
-#header ul li a:hover {
-	background: url(images/bg-menu.gif) repeat-x;
-}
-
-#header div#tagline {
-	background: url(images/bg-header2.jpg) no-repeat center -20px;
-	margin-top: 10px;
-}
-
-#header div#tagline div {
-	color: #295071;
-	height: 435px;
-	padding-left: 20px;
-	margin: 0 auto;
-	width: 940px;
-}
-
-#header div#tagline div h4 {
-	font-family: Georgia, "Times New Roman",Times, serif;
-	font-size: 50px;
-    font-weight: bold;
-    line-height: 70px;
-	margin: 0;
-	padding-top: 100px;
-    text-shadow: 0 1px 0 #FFFFFF;
-	width: 450px;
-}
-
-#header div#tagline div p {
-	font-size: 24px;
-    line-height: 35px;
-	margin: 0;
-    padding-top: 20px;
-    text-shadow: 0 1px 1px #FFFFFF;
-    width: 340px;
-}
-
-#content {
-	background: url(images/bg-content.gif) no-repeat top center;
-	margin: 0 auto;
-	min-height: 174px;
-    overflow: hidden;
-    position: relative;
-    width: 960px;;
-}
-
-#content div#home {
-	background: url(images/bg-home.gif) no-repeat top center;
-	margin: -0 auto 0;
-	min-height: 174px;
-    overflow: hidden;
-	padding: 0;
-    position: relative;
-    width: 960px;
-}
-
-#content p a {
-	color: #000;
-	text-decoration: underline;
-}
-
-h4 a, div#aside p span a {
-	color: #375675;
-	text-decoration: underline;
-}
-
-#content div {
-	background: #fff;
-	margin: 10px auto 20px;
-    padding: 30px;
-    width: 880px;
-}
-
-#content div div {
-	margin: 0;
-	padding: 0 0 30px;
-	width: auto;
-}
-
-#content div div.first {
-	*height: 200px;
-}
-
-#content div div h2 {
-	color: #375675;
-	font-weight: bold;
-	padding-top: 10px;
-}
-
-#content div#home div {
-	background: none;
-	margin: 10px auto 20px;
-    padding: 30px;
-    width: 880px;
-}
-
-#content div ul.section {
-	color: #375675;
-    font-size: 14px;
-    font-weight: bold;
-	list-style: disc;
-	margin: 10px 0 10px 20px;
-}
-
-#content div ul.section li {
-	float: none;
-    padding-bottom: 0;
-    width: auto;
-}
-
-#content div ul.section li span {
-	color: #375675;
-    text-transform: uppercase;
-}
-
-#content div ul.section li p {
-	color: #585858;
-    font-weight: normal;
-    line-height: 25px;
-    margin-left: -12px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-
-#content div p span.first {
-	color: #375675;
-    display: block;
-    font-size: 14px;
-    font-weight: bold;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-}
-
-#content div#home div div#aside, #content div#home div div#calendar {
-	min-height: 300px;
-	margin: 0;
-	padding: 0;
-}
-
-#content div#home div div#aside {
-	float: left;
-	padding: 0;
-    width: 570px;
-}
-
-#content div div.section div#aside {
-	float: left;
-	margin: 0;
-	padding: 0;
-    width: 560px;
-}
-
-#content div#home div div#aside ul {
-	list-style: none !important;
-	padding-left: 0 !important;
-	padding-top: 0 !important;
-}
-
-#content div#home div div#aside div {
-	margin-bottom: 40px;
-	float: none;
-    margin-left: 0;
-    margin-top: 0;
-    min-height: 0;
-	padding: 0;
-	width: 550px;
-}
-
-#content div div ul {
+h1, h2, h3, h4 {
 	margin: 0;
 }
 
-#content div h5 {
-	color: #375675;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 30px 0 5px;
-}
-
-#content div#home div div#aside div h1, #content div h1 {
-	color: #3f3f3f;
-	font-size: 28px;
+h2, h3, h4 {
+	margin-bottom: 20px;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #F2F2F2;
+	letter-spacing: -0.035em;
 	font-weight: normal;
-	margin: 0;
-	padding-bottom: 27px;
+	color: #37404C;
 }
 
-#content div h3 {
-	color: #c80708;
+h2 {
 	font-size: 28px;
-	font-weight: bold;
-	margin: 0;
-	padding-bottom: 27px;
 }
 
-#content div#home div div#aside h2 span.last, #content div h1 span.last, #content div h2 span.last {
-	color: #c80708;
-	padding: 0;
+h3 {
+	font-size: 16px;
 	font-weight: bold;
 }
 
-#content div#home div div#aside div img, #content div img {
-	border: 1px solid #C80708;
-    float: left;
-    margin-right: 15px;
-	margin-top: 8px;
-    padding: 9px;
-}
-
-#content div img {
-	margin-right: 25px;
-}
-
-#content div#home div div#aside div p {
-    padding-top: 12px;
-}
-
-#content div#home div div#aside div p, #content div p {
-	line-height: 25px;
-	margin: 0;
-    padding-bottom: 0;
-    text-align: justify;
-}
-
-#content div#home div div#aside ul li {
-	border: none;
-    float: left;
-    margin-right: 0;
-    padding-bottom: 0;
-    padding-right: 25px;
-    padding-top: 0;
-    width: 260px;
-}
-
-#content div#home div div#aside ul li:first-child {
-	padding-left: 0;
-}
-
-#content div#home div div#aside ul li h2 {
-	font-size: 20px;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-	text-transform: none; 
-}
-
-#content div h2 {
-	font-size: 15px;
-    font-weight: normal;
-    margin: 0;
-    padding-bottom: 15px;
-    padding-top: 40px;
-    text-transform: uppercase;
-}
-
-#content div h4 {
-	color: #375675;
-	font-size: 14px;
-    font-weight: bold;
-    line-height: 25px;
-    margin: 0;
-    padding-top: 20px;
-}
-
-#content div ul.services {
-	list-style: disc;
-    margin: 10px 0 0 19px;
-	padding: 0;
-	*padding-bottom: 20px;
-}
-
-#content div ul.services li {
-	float: left;
-	line-height: 25px;
-    margin-right: 57px;
-    width: 230px;
-}
-
-#content div div.section {
-	float: none;
-	margin: 20px 0 0;
-	padding: 0;
-	width: auto;
-}
-
-#content div div.calendar {
-	float: none;
-	margin-top: -20px;
-	*margin-top: -30px;
-	padding: 0 20px;
-	width: auto;
-}
-
-#content div div.calendar dl {
-	float: left;
-	width: 278px;
-}
-
-#content div div.calendar dl dt {
-	color: #375675;
-    font-size: 14px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    padding-top: 20px;
-	*padding-top: 45px;
-}
-
-#content div div.calendar dl dd {
-	line-height: 25px;
-    margin: 0;
-    padding: 0;
-}
-
-#content div div.section div h4 {
-	padding-top: 0;
-    width: 400px;
-}
-
-#content div div.section div h5,
-#content div div.section div h6 {
-	color: #375675;
-    font-weight: bold;
-    line-height: 25px;
-    margin: 0;
-    padding: 15px 0;
-    text-transform: uppercase;
-}
-
-#content div div.section div h6 {
-	margin: 0;
-	padding: 0;
-	font-size: 18px;
-	text-indent: 20px;
-}
-
-#content div div.section div h5 span {
-	color: #3F3F3F;
-	font-weight: normal;
-}
-
-#content div div.section div#sidebar ul.links {
-	list-style: disc;
-	margin: 10px 0 0 20px;
-	padding-top: 0;
-    padding-left: 15px;
-    width: auto;
-}
-
-#content div div.section div#sidebar ul.blog li {
-	line-height: 15px;
-	border: none;
-	float: left;
-    height: auto;
-    padding: 0;
-	width: auto;
-}
-
-#content div div.section div#sidebar ul.blog li div h2 {
+h4 {
 	font-size: 14px;
 	font-weight: bold;
-	margin: 0;
-	padding: 0;
 }
 
-#content div div.section div#sidebar ul.blog li div h2 a {
-	line-height: 19px;
-    text-transform: uppercase;
-	color: #375675;
-    text-align: left;
-    text-decoration: none;
-}
-
-#content div div.section div#sidebar ul.blog li div {
-	margin: 0;
-    padding: 0;
-    width: auto;
-}
-
-#content div div.section div#sidebar ul.blog li p {
-	padding: 15px 0;
-}
-
-#content div div.section div#sidebar ul.links li {
-	border: none;
-	float: none;
-    height: auto;
-    line-height: 33px;
-    padding: 0;
-	width: auto;
-}
-
-#content div#home div div#aside ul li h2 a, #content div h2 {
-	color: #3f3f3f;
-	text-decoration: none;
-}
-
-#content div#home div div#aside ul li p {
-	line-height: 25px;
-    padding-top: 20px !important;
-	padding-bottom: 0 !important;
-    text-align: justify;
-	margin-top:0;
-}
-
-#content div#home div div#calendar {
-	float: left;
-    margin-left: 5px;
-    padding: 0;
-    width: 305px;
-}
-
-#content div div.section div#sidebar {
-	float: left;
-    margin-left: 30px;
-	margin-top: 0;
-    padding: 0;
-    width: 290px;
-}
-
-#content div div.section div#sidebar ul.blog {
-	float: left;
-	list-style: none;
-    margin-top: 0;
-    padding: 5px 0 0;
-    width: 290px;
-}
-
-#content div#home div div#calendar h3 {
-	font-size: 28px;
-	font-weight: bold;
-	margin: 0;
-}
-
-#content div#home div div#calendar h3{
-	color: #c80708;
-	display: block;
-	text-decoration: none;
-}
-
-#content div#home div div#calendar ul {
-	list-style: none;
-	padding-left: 0;
-	padding-top: 8px;
-}
-
-#content div#home div div#calendar ul li {
-	margin-right: 0;
-	padding: 0 0 20px;
-	width: auto;
-}
-
-#content div#home div div#calendar ul li div {
-	height: 43px;
-    margin-bottom: 0 !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    min-height: 0 !important;
-	padding: 0;
-	width: 270px !important;
-}
-
-#content div#home div div#calendar ul li div span, #content div div.section div#sidebar ul li div span {
-	background: #274e75;
-	color: #FEFEFF;
-    float: left;
-    font-size: 14px;
-    font-weight: bold;
-	margin-right: 5px;
-    padding: 3px 5px;
-    text-align: right;
-}
-
-#content div#home div div#calendar ul li div h2 {
-	font-size: 18px;
-    font-weight: normal;
-	margin: 0;
-    padding: 0;
-}
-
-#content div#home div div#calendar ul li div h2 a {
-	color: #375675;
-	display: block;
-    line-height: 19px;
-    text-align: left;
-    text-decoration: none;
-	text-transform: none;
-}
-
-#content div#home div div#calendar ul li p {
-	border-bottom: 1px solid #c2c2c2;
-	color: #5E5E5E;
-    line-height: 25px;
-	padding: 15px 0;
+p, ul, ol {
+	margin-bottom: 1.5em;
+	line-height: 170%;
 	text-align: justify;
 }
 
-#content div h3 div {
-	border: 1px dashed red;
-	float: left;
+ul, ol {
+	margin-left: 3em;
 }
 
-#footer {
-	background: #274F75 url(images/bg-footer.gif) repeat-x;
-	min-height: 113px;
-	width: 100%;
-}
-
-#footer div {
-	font-size: 12px;
-	margin: 0 auto;
-    padding-top: 37px;
-	position: relative;
-    width: 960px;
-}
-
-#footer div div#connect {
-	float: left;
+dl.list1 {
+	margin: 0;
 	padding: 0;
-	width: 250px;
-}
-
-#footer div div#connect a {
-	display: inline-block;
-	padding-right: 10px;
-}
-
-#footer div div.section {
-	float: right;
-	padding: 0;
-	width: 700px;
-}
-
-#footer div div.section ul {
 	list-style: none;
-    margin: 0;
-    padding: 0;
-	position: absolute;
-    right: 0;
-	top: 0;
 }
 
-#footer div div.section ul li {
-	border-left: 1px solid #6886a0;
+dl.list1 dt {
 	float: left;
-	padding: 0 5px;
+	width: 70px;
 }
 
-#footer div div.section ul li.last {
-	border-right: 0;
+dl.list1 dd {
+	margin-bottom: 10px;
 }
 
-#footer div div.section ul li:first-child {
+dl.list1 a {
+	color: #666666;
+}
+
+ul.list2 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+ul.list2 li {
+	float: left;
+	margin: 0 18px 18px 0;
+}
+
+ul.list2 li.nopad {
+	margin-right: 0;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	color: #FF5A00;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
 	border: none;
 }
 
-#footer div div.section ul li a {
-	color: #6886A0;
-    display: block;
-	height: 12px;
-    line-height: 10px;
-    text-decoration: none;
+img.left {
+	float: left;
+	margin: 5px 20px 0 0;
 }
 
-#footer div div.section ul li a:hover {
-	color: #fff;
+img.right {
+	float: right;
+	margin: 5px 0 0 20px;
 }
 
-#footer div div.section p {
-	color: #6886A0;
-    margin: 0;
-    padding: 20px 3px 0;
-    text-align: right;
+/* Wrapper */
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: url(images/img02.jpg) repeat-y;
+}
+
+#wrapper2 {
+	background: url(images/img10.jpg) no-repeat left bottom;
+}
+
+/* Header */
+
+#header {
+	height: 140px;
+	background: #087FE7 url(images/img03.jpg) no-repeat;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 90px 0 0 78px;
+	text-transform: lowercase;
+	letter-spacing: -3px;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+#logo h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 112px 78px 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	padding-left: 40px;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	background: url(images/img04.jpg) no-repeat;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 555px;
+	padding: 0 0 0 76px;
+}
+
+.post {
+	padding-top: 50px;
+}
+
+.post .title {
+}
+
+.post .title a {
+	text-decoration: none;
+	color: #37404C;
+}
+
+.post .title a:hover {
+	text-decoration: underline;
+}
+
+.post .entry {
+}
+
+.post .meta {
+	height: 16px;
+	margin: 0;
+	padding: 10px;
+	background: url(images/img07.jpg) repeat-x left bottom;
+	line-height: normal;
+}
+
+.post .meta .posted {
+	display: block;
+	float: left;
+}
+
+.post .meta .permalink {
+	display: block;
+	float: right;
+	padding-left: 17px;
+	background: url(images/img09.gif) no-repeat left center;
+}
+
+.post .meta .comments {
+	display: block;
+	float: right;
+	padding: 0 30px 0 19px;
+	background: url(images/img08.gif) no-repeat left center;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 186px;
+	padding: 67px 76px 0 0;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin-bottom: 40px;
+}
+
+#sidebar li ul {
+}
+
+#sidebar li li {
+	margin: 0;
+}
+
+/* Search */
+
+#search {
+}
+
+#search br {
+	display: none;
+}
+
+#search input {
+	padding: 1px 5px;
+	border-top: 1px solid #BAD300;
+	border-left: 1px solid #A9C817;
+	border-right: 1px solid #7DAB00;
+	border-bottom: 1px solid #578900;
+	background: #6E9D00 url(images/img18.gif) repeat-x;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#search #s {
+	width: 130px;
+	padding: 2px 5px;
+	background: #FFFFFF;
+	border: 1px solid #EBEBEB;
+	font: bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6B6B6B;
+}
+
+/* Widebar */
+
+#widebar {
+	margin: 0 50px;
+	padding: 25px 28px 0 28px;
+	background: #F2F2F2 url(images/img11.gif) repeat-x;
+}
+
+#widebar #colA {
+	float: left;
+	width: 260px;
+}
+
+#widebar #colB {
+	float: left;
+	width: 260px;
+	padding-left: 45px;
+}
+
+#widebar #colC {
+	float: left;
+	width: 186px;
+	padding-left: 45px;
+}
+
+/* Footer */
+
+#footer {
+	height: 108px;
+	background: url(images/img05.jpg) no-repeat;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 45px;
+	text-align: center;
+	color: #8E8E8E;
+}
+
+#footer a {
+	color: #666666;
 }
