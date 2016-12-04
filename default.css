@@ -52,7 +52,7 @@ a:hover {
 }
 
 #header h2 {
-	float: middle;
+	float: left;
 	margin: 10px 0px 0px 0px;
 	padding-top: 28px;
 	font-size: 16px;
