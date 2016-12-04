@@ -44,7 +44,7 @@ a:hover {
 }
 
 #header h1 {
-	align: center;
+	float: right;
 	margin: 0px;
 	padding-top: 20px;
 	font-size: 42px;
